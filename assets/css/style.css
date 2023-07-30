@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(170, 170, 170) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+}
+/*navbar section starts here*/
+.navbar{
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid rgb(0, 255, 0);
+}
+.navbar-content{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container>a{
+    cursor: pointer;
+}
+.logo-container>h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffff;
+}
+.logo-container>h3>span{
+    color: rgb(30, 188, 2);
+    font-weight: bolder;
+}
+.logo-container>a>img{
+    height: 80px;
+    width: 80px;
+}
+.navbar-content>button{
+    background-color:transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.navbar-content>button>img{
+    height: 40px;
+    width: 40px;
+}
+/*navbar section ends here*/
+
+/*header section starts here*/
+#header{
+    height:800px;
+    width:100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+}
+#header>.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 400px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow:0px 10px 10px black;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+}
+#header>.container>.header-content>h5{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 1px 2px 3px rgb(255, 255, 255);
+}
+#header>.container>.header-content>h1{
+    padding-left: 10rem;
+    text-align: center;
+    padding-right: 10rem;
+    font-weight: bolder;
+    color: rgb(0, 255, 0);
+    -webkit-text-stroke: .5px green;
+    text-shadow: 2px 5px 5px rgb(0, 26, 0);
+}
+#header>.container>.header-content>p{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size: 20px;
+    color: #ffff;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.517);
+}
+#header>.container>.header-content>a{
+    text-align: center;
+    border:1px solid blue;
+    width: 180px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(1, 1, 255, 0.737);
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px rgb(43, 0, 255) ;
+    color: white;
+    text-transform: uppercase;
+}
+/* header section ends here*/
+
+/*about section starts here*/
+.about-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-section>.about{
+    width:54%;
+    height: 45vh;
+    border: 2px solid rgb(255, 249, 249);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px black;
+    background-color:rgb(0, 0, 0) ;
+    background-image: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+}
+.about-section>.about>h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color:rgb(255, 255, 255) ;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.about-section>.about>p{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.517);
+}
+.about-section>.about>a{
+    text-align: center;
+    border:1px solid blue;
+    width: 180px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(1, 1, 255, 0.737);
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px rgb(43, 0, 255) ;
+    color: white;
+    text-transform: uppercase;
+}
+.about-section>.example{
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    padding: 30px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+}
+.about-section>.example>h3{
+    text-transform: uppercase;
+    color: #ffff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.517);
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.about-section>.example>img{
+    box-shadow: 0px 5px 10px black;
+}
+.about-section>.example>a{
+    text-align: center;
+    border:1px solid rgb(8, 0, 255);
+    width: 140px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(1, 1, 255, 0.737);
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px rgb(2, 40, 188) ;
+    color: white;
+    text-transform: uppercase;
+}
+/*about section ends here*/
+
+/*description section starts here*/
+#description{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d0d0d0;
+    background-image: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    border-top: 2px solid rgb(0, 255, 0);
+    border-bottom: 2px solid rgb(0, 255, 0);
+}
+#description>.desc{
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    padding: 30px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/images/pngwing.com\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+}
+#description>.desc>.para1{
+    font-size: 25px;
+    text-align: center;
+    color: #00ff2a;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.517);
+}
+#description>.desc>.para2{
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.517);
+}
+#description>.desc>.buttons{
+    display: flex;
+    margin-top: 30px;
+    gap:30px;
+    text-align: center;
+}
+#description>.desc>.buttons>a{
+    text-align: center;
+    border:1px solid rgb(8, 0, 255);
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(1, 1, 255, 0.737);
+    margin-top: 20px;
+    box-shadow: 0px 5px 5px rgb(2, 40, 188) ;
+    color: white;
+    text-transform: uppercase;
+}
+.descImg>img{
+    height: 400px;
+    width: 500px;
+}
+
+/* description section ends here */
+
+/*footer section starts here*/
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    height: 400px;
+    width: 100%;
+}
+#footer>.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:200px;
+}
+#footer>.links>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: #8d8d8d;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px black;
+}
+#footer>.links>ul>li{
+    list-style: none;
+    padding: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.517);
+}
+#footer>.links>p{
+    font-size: 30px;
+}
+#footer>.smallDesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer>.smallDesc>img{
+    height: 300px;
+    width: 300px;
+}
+#footer>.smallDesc>h4{
+    font-size: 30px;
+    color: #00ff2a;
+}
+#linksDiv{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+
